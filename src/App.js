@@ -20,7 +20,7 @@ export default function App() {
     var input = event.target.value;
     var meaning = emojiDistnory[input];
     if (meaning === undefined) {
-      meaning = "enter enoji";
+      meaning = "enter emoji";
     }
     setmeaning(meaning);
   }
